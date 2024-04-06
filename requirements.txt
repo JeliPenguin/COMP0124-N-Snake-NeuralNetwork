@@ -1,0 +1,5 @@
+numpy
+array2gif
+matplotlib
+torch
+tqdm
