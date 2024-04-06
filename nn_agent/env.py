@@ -88,7 +88,7 @@ class SnakeGame:
         elif done == Result.WIN2:
             return [-0.1, 0.1]
         elif done == Result.TIE:
-            return [-0.1, -0.1]
+            return [0, 0]
         return [0.05, 0.05]
 
     def step(self):

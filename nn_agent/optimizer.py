@@ -62,7 +62,7 @@ class IQLOptimizer(MAOptimizer):
         plt.show()
 
 class MADDPGOptimizer(MAOptimizer):
-    """Optimizer for Multi-Agent Deep Deterministic Policy Gradient (MADDPG) agents."""
+    """Centralised Optimizer for Multi-Agent Deep Deterministic Policy Gradient (MADDPG) agents."""
     def __init__(self, agents, batch_size, exploit_eps):
         """
         Initializes the optimizer for MADDPG agents.
